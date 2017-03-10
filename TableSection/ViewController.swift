@@ -61,7 +61,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let testCell = tableView.dequeueReusableCell(withIdentifier: "Cell") as UITableViewCell? ?? UITableViewCell.init(style: .default, reuseIdentifier: "Cell")
-        
+        let items = sections[indexPath.section].items
+        testCell.textLabel?.text = items?[indexPath.row]
         return testCell
     }
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
