@@ -12,6 +12,8 @@
 		4D1983291E70E20C00DC1CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1983271E70E20C00DC1CFB /* Main.storyboard */; };
 		4D19832B1E70E20C00DC1CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D19832A1E70E20C00DC1CFB /* Assets.xcassets */; };
 		4D19832E1E70E20C00DC1CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D19832C1E70E20C00DC1CFB /* LaunchScreen.storyboard */; };
+		4D1983361E71217F00DC1CFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1983351E71217F00DC1CFB /* Extensions.swift */; };
+		4D19833B1E71592400DC1CFB /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19833A1E71592400DC1CFB /* CollapsibleTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4D19832A1E70E20C00DC1CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D19832D1E70E20C00DC1CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D19832F1E70E20C00DC1CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1983351E71217F00DC1CFB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D19833A1E71592400DC1CFB /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		4D1983221E70E20C00DC1CFB /* TableSection */ = {
 			isa = PBXGroup;
 			children = (
+				4D19833A1E71592400DC1CFB /* CollapsibleTableViewHeader.swift */,
+				4D1983351E71217F00DC1CFB /* Extensions.swift */,
 				4D1983231E70E20C00DC1CFB /* AppDelegate.swift */,
 				4D1983251E70E20C00DC1CFB /* ViewController.swift */,
 				4D1983271E70E20C00DC1CFB /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1983261E70E20C00DC1CFB /* ViewController.swift in Sources */,
+				4D1983361E71217F00DC1CFB /* Extensions.swift in Sources */,
+				4D19833B1E71592400DC1CFB /* CollapsibleTableViewHeader.swift in Sources */,
 				4D1983241E70E20C00DC1CFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +305,7 @@
 				4D1983341E70E20C00DC1CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
